@@ -4,14 +4,14 @@
     var elements = stripe.elements({
         fonts: [
             {
-                cssSrc: 'css/fonts/fonts.css',
+                cssSrc: 'http://db.onlinewebfonts.com/c/0abeb2471faeb5269db428b9eac2075e?family=GT+Walsheim+Pro+Regular',
             },
         ],
     });
 
     var elementStyles = {
         base: {
-            fontFamily: 'GT-Walsheim Regular',
+            fontFamily: 'GT Walsheim Pro Regular',
             fontSize: '25px',
         },
     };
